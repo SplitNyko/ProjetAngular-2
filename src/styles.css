@@ -8,6 +8,10 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    
+    background-image: url("app/IMAGES/colored-pencil.jpg");
+    background-attachment: fixed;
+    background-size: cover;
 }
 
 my-app {

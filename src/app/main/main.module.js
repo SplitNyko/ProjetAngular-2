@@ -11,14 +11,22 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 var core_1 = require('@angular/core');
 var platform_browser_1 = require('@angular/platform-browser');
 var main_component_1 = require('./main.component');
+var presentation_component_1 = require('./presentation/presentation.component');
+var home_component_1 = require('./home/home.component');
 var MainModule = (function () {
     function MainModule() {
     }
     MainModule = __decorate([
         core_1.NgModule({
             imports: [platform_browser_1.BrowserModule],
-            declarations: [main_component_1.MainComponent],
-            bootstrap: [main_component_1.MainComponent]
+            declarations: [main_component_1.MainComponent,
+                presentation_component_1.PresentationComponent,
+                home_component_1.HomeComponent
+            ],
+            bootstrap: [main_component_1.MainComponent,
+                presentation_component_1.PresentationComponent,
+                home_component_1.HomeComponent
+            ]
         }), 
         __metadata('design:paramtypes', [])
     ], MainModule);

@@ -21,11 +21,11 @@ var AppModule = (function () {
             imports: [platform_browser_1.BrowserModule],
             declarations: [app_component_1.AppComponent,
                 main_component_1.MainComponent,
-                menu_component_1.MenuComponent,
+                menu_component_1.MenuComponent
             ],
             bootstrap: [app_component_1.AppComponent,
                 main_component_1.MainComponent,
-                menu_component_1.MenuComponent,
+                menu_component_1.MenuComponent
             ]
         }), 
         __metadata('design:paramtypes', [])
