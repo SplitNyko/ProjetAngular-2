@@ -7,7 +7,7 @@ import { PresentationComponent } from './presentation/presentation.component';
 import { HomeComponent } from './home/home.component';
 
 @NgModule({
-  imports:      [ BrowserModule ],
+  imports:      [ BrowserModule],
   declarations: [ MainComponent,
                   PresentationComponent,
                   HomeComponent
@@ -15,9 +15,7 @@ import { HomeComponent } from './home/home.component';
   bootstrap:    [ MainComponent,
                   PresentationComponent,
                   HomeComponent
-                  
-                   
-  ]
+  ],
 })
   
-export class MainModule {}
+export class MainModule { }
