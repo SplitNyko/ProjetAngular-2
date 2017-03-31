@@ -3,3 +3,20 @@
   font-family: Arial, Helvetica, sans-serif;
   font-size: 250%;
 }
+
+main {
+    width: calc(100vw - (60px + 1vw));
+    height: 100vh;
+    background-color: #f0f0f0;
+}
+
+menuLeft {
+    width: calc(60px + 1vw);
+    height: 100vh;
+    /*background-color: #00a386;*/
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}

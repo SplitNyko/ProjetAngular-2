@@ -9,7 +9,7 @@ body {
     justify-content: center;
     align-items: center;
     
-    background-image: url("app/IMAGES/colored-pencil.jpg");
+    background-color: palegreen;
     background-attachment: fixed;
     background-size: cover;
 }

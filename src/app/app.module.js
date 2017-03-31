@@ -11,6 +11,7 @@ var platform_browser_1 = require("@angular/platform-browser");
 var app_component_1 = require("./app.component");
 var main_component_1 = require("./main/main.component");
 var menu_component_1 = require("./menu/menu.component");
+var home_component_1 = require("./main/home/home.component");
 var AppModule = (function () {
     function AppModule() {
     }
@@ -21,7 +22,8 @@ AppModule = __decorate([
         imports: [platform_browser_1.BrowserModule],
         declarations: [app_component_1.AppComponent,
             main_component_1.MainComponent,
-            menu_component_1.MenuComponent
+            menu_component_1.MenuComponent,
+            home_component_1.HomeComponent
         ],
         bootstrap: [app_component_1.AppComponent,
             main_component_1.MainComponent,

@@ -1,14 +1,3 @@
-.menuLeft {
-    width: calc(60px + 1vw);
-    height: 100vh;
-    /*background-color: #00a386;*/
-
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-}
-
 .menuLeftMenu {
     flex: 0.80;
 
